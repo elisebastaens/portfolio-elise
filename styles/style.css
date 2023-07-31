@@ -55,6 +55,9 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  padding: 30px 20px;
+  display: block;
+  text-align: center;
 }
 
 .about-link {
