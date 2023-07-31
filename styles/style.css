@@ -55,7 +55,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  padding: 30px 20px;
+  padding: 20px 10px;
   display: block;
   text-align: center;
 }
@@ -91,3 +91,12 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
